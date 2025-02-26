@@ -1,0 +1,9 @@
+/* src/tailwind/components/header/header.css */
+.header-container {
+    @apply bg-gradient-to-r from-black via-purple-900 to-purple-800 text-white shadow-md fixed w-full z-50;
+  }
+  
+  .header-nav {
+    @apply container mx-auto flex justify-between items-center py-4 px-4;
+  }
+  

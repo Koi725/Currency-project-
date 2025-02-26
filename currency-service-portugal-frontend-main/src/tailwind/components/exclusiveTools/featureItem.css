@@ -1,0 +1,13 @@
+/* src/tailwind/components/exclusiveTools/featureItem.css */
+.feature-item {
+    @apply flex items-center space-x-3;
+  }
+  
+  .feature-text {
+    @apply text-gray-800 text-lg;
+  }
+  
+  .feature-number {
+    @apply text-purple-500 font-bold;
+  }
+  

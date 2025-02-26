@@ -1,0 +1,8 @@
+/* src/tailwind/components/exclusiveTools/ctaButtons.css */
+.button-primary {
+  @apply bg-white border border-purple-600 text-purple-600 px-6 py-3 rounded-full hover:bg-purple-100 transition;
+}
+
+.button-secondary {
+  @apply bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition;
+}

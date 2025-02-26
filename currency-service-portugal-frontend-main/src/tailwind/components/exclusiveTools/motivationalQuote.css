@@ -1,0 +1,5 @@
+/* src/tailwind/components/exclusiveTools/motivationalQuote.css */
+.motivational-quote {
+    @apply mt-8 italic text-gray-500;
+  }
+  

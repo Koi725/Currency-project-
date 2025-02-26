@@ -1,0 +1,17 @@
+/* src/tailwind/components/exclusiveTools/exclusiveTools.css */
+.section-exclusive-tools {
+    @apply bg-white py-20 relative overflow-hidden;
+  }
+  
+  .container-exclusive-tools {
+    @apply container mx-auto px-6 relative z-10 flex flex-col lg:flex-row items-center lg:items-start justify-between;
+  }
+  
+  .right-image {
+    @apply lg:w-1/3 mt-10 lg:mt-0 relative w-full h-auto max-w-sm rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-300;
+  }
+  
+  .decorative-divider {
+    @apply absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-400 to-purple-600;
+  }
+  

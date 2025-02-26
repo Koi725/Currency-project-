@@ -1,0 +1,9 @@
+/* src/tailwind/components/header/socialLinks.css */
+.social-links {
+    @apply absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg;
+  }
+  
+  .social-link-item {
+    @apply flex items-center space-x-2 hover:bg-purple-200 px-4 py-2 rounded;
+  }
+  

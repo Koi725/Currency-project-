@@ -1,0 +1,9 @@
+/* src/tailwind/components/header/userPhone.css */
+.user-phone {
+    @apply flex space-x-4;
+  }
+  
+  .user-phone-button {
+    @apply bg-gradient-to-r from-purple-600 to-purple-400 text-white px-4 py-2 rounded-full hover:from-purple-700 hover:to-purple-500;
+  }
+  

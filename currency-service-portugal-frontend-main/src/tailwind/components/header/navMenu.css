@@ -1,0 +1,17 @@
+/* src/tailwind/components/header/navMenu.css */
+.nav-menu {
+    @apply flex space-x-6 items-center;
+  }
+  
+  .dropdown-button {
+    @apply hover:text-purple-300 transition-all;
+  }
+  
+  .dropdown-menu {
+    @apply absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg;
+  }
+  
+  .dropdown-item {
+    @apply hover:bg-purple-200 px-4 py-2 rounded;
+  }
+  

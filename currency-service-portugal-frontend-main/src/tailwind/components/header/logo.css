@@ -1,0 +1,5 @@
+/* src/tailwind/components/header/logo.css */
+.logo-link {
+    @apply text-2xl font-bold hover:text-accent;
+  }
+  
